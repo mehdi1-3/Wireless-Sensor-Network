@@ -269,7 +269,7 @@ GF_SECURITY_ADMIN_PASSWORD: password of the Grafana administrator.
 6.Create topic with the name "registred_user"
 ```bash
     kafka-topics.sh --bootstrap-server 127.0.0.1:9092 --topic registred_user --create
-    
+```
 ## Result_screenshots
 
 ![App Screenshot](https://github.com/mehdi1-3/iot/blob/master/Screenshots/result.png)
