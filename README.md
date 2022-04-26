@@ -141,7 +141,7 @@ volumes:
   influxdb-data:
   grafana-data:
 networks:
-  lan:Component />
+  lan: />
 }
 ```
 
