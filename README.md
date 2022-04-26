@@ -72,7 +72,7 @@ And you can work in your superuser.
 ```bash
     cd
 ```
-3.Create the file /home/grafana/docker-compose.yml and change the highlighted lines to the desired configuration:
+3.Create the file /home/grafana/docker-compose.yml and change the highlighted lines to the desired configuration or just moved from project directory to /home/grafana/ and make the changes:
 ```bash
     vim /home/grafana/docker-compose.yml
 ```
