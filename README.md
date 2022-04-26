@@ -141,7 +141,7 @@ volumes:
   influxdb-data:
   grafana-data:
 networks:
-  lan: />
+  lan: 
 }
 ```
 
@@ -225,8 +225,6 @@ GF_SECURITY_ADMIN_PASSWORD: password of the Grafana administrator.
   [[inputs.kafka_consumer.json_v2]]
         [[inputs.kafka_consumer.json_v2.field]]
             path = "Temp" 
-    
-
 ```
 
 6.Start the containers:
