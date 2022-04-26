@@ -6,7 +6,7 @@ Technologies: python, Kafka, influxdb, grafana, teflage, flutter and a raspberry
 
 ## Installation
 
-clone the project
+Clone the project
 
 ```bash
   cd my-project
