@@ -232,3 +232,34 @@ GF_SECURITY_ADMIN_PASSWORD: password of the Grafana administrator.
     docker-compose up -d
 ```
 
+
+## Kafka
+
+1.Installing java
+```bash
+    sudo apt install default-jre
+    sudo apt install default-jdk
+```
+2.To check that java is correctly installed with the command :
+```bash
+    java -version
+```
+3.Download Kafka
+```bash
+    wget https://archive.apache.org/dist/kafka/2.6.0/kafka_2.13-2.6.0.tgz
+```
+4.extract 
+```bash
+    tar -xvf kafka_2.13-2.6.0.tgz
+```
+5.Start zookeeper
+```bash
+    zookeeper-server-start.sh config/zookeeper.properties
+```
+5.Start kafka
+```bash
+    kafka-server-start.sh config/server.properties
+```
+6.Create topic with the name "registred_user"
+```bash
+    kafka-topics.sh --bootstrap-server 127.0.0.1:9092 --topic registred_user --create
