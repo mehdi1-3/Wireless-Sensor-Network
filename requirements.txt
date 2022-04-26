@@ -1,0 +1,7 @@
+simplejson==3.16.0
+kafka-python==2.0.1
+board==1.0
+Adafruit-bitfield==1.5.1
+Adafruit-CCS811==0.2.1
+Adafruit-GPIO==1.0.3
+Adafruit-PureIO==1.1.9
