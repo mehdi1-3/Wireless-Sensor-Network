@@ -232,6 +232,9 @@ GF_SECURITY_ADMIN_PASSWORD: password of the Grafana administrator.
     docker-compose up -d
 ```
 
+## Screenshots
+
+![App Screenshot](https://github.com/mehdi1-3/iot/blob/master/Screenshots/influx1.png)
 
 ## Kafka
 
