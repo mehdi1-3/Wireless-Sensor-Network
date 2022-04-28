@@ -270,6 +270,6 @@ GF_SECURITY_ADMIN_PASSWORD: password of the Grafana administrator.
 ```bash
     kafka-topics.sh --bootstrap-server 127.0.0.1:9092 --topic registred_user --create
 ```
-## Result_screenshots
+## Result_screenshot
 
 ![App Screenshot](https://github.com/mehdi1-3/iot/blob/master/Screenshots/result.png)
